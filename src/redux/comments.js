@@ -1,6 +1,6 @@
-import { PROMOTIONS } from '../shared/promotions';
+import { COMMENTS } from '../shared/comments';
 
-export const Promotions = (state = PROMOTIONS, action) => {
+export const Comments = (state = COMMENTS, action) => {
     switch (action.type) {
         default:
           return state;
